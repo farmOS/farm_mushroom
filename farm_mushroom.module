@@ -7,9 +7,9 @@
 include_once 'farm_mushroom.features.inc';
 
 /**
- * Implements hook_farm_ui_entities().
+ * Implements hook_farm_record_types().
  */
-function farm_mushroom_farm_ui_entities() {
+function farm_mushroom_farm_record_types() {
   return array(
     'farm_asset' => array(
       'substrate' => array(
